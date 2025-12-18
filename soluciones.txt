@@ -1,0 +1,43 @@
+MANUAL DE INSTRUCCIONES -- ALBERTO PEÑA Y FABIO TORRES --
+
+INSTRUCCIONES:
+- Ejecutamos el codigo llamando a la funcion -- procesa -- 
+- Escribimos el nombre del archivo relacionado al ejemplo que queremos probar
+- Introducimos el numero de iteraciones que queremos ejecutar 
+(a mayor iteraciones mayor precision pero mayor tiempo de ejecucion)
+- Nos devuelve por pantalla el mejor camino encontrado y su coste correspondiente
+
+
+SOLUCIONES DE LOS EJEMPLOS
+Nota: Para todos nuestros ejemplos hemos prefijado constantes rho = 0.1 y constanteQ = 10.0
+IMPORTANTE: Es posible que el codigo devuelva reordenaciones de las soluciones
+(p.ej para el Ejemplo 1 puede devolver [7,8,9,10,1,2,3,4,5,6] y seria la solucion correcta)
+Nota: la primera vez que se ejecuta tarda unos segundos mas de lo normal
+
+
+ADJUNTAMOS 5 EJEMPLOS DISTINTOS
+
+1º)Ejemplo 1
+Camino: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Coste: 10.0
+Se consigue la solucion exacta en un numero bajo (50 aprox) de iteraciones.
+
+2º)Ejemplo 2
+Camino: [1, 4, 7, 10, 3, 6, 9, 2, 5, 8]
+Coste: 10.0
+Se consigue la solucion exacta en un numero bajo de iteraciones.
+
+3º)Ejemplo 3
+Camino: [1, 4, 7, 2, 9, 6, 3, 8, 5, 10]
+Coste: 33.0
+Devuelve la solucion muy cercana en pocas iteraciones.
+
+4º)Ejemplo 4
+Camino: [1, 5, 7, 4, 8, 10, 3, 6, 2, 9]
+Coste: 10.0
+A bajas iteraciones da varios caminos distintos con costes cerca de 10,6 . A más iteraciones (hemos probado con 1000 en adelante) deberia dar el camino y el coste exacto.
+
+5º)Ejemplo 5 
+Camino: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Coste: 98.0 
+Exacto a muchas iteraciones (más de 1000).Damos una muy buena aproximacion de la solucion en pocas iteraciones
